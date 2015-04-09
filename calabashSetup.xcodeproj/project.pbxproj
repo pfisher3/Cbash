@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA30E0F61AD701070051122C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30E0F51AD701070051122C /* AppDelegate.swift */; };
+		BA30E0F81AD701070051122C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30E0F71AD701070051122C /* ViewController.swift */; };
+		BA30E0FB1AD701070051122C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA30E0F91AD701070051122C /* Main.storyboard */; };
+		BA30E0FD1AD701070051122C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA30E0FC1AD701070051122C /* Images.xcassets */; };
+		BA30E1001AD701070051122C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA30E0FE1AD701070051122C /* LaunchScreen.xib */; };
+		BA30E10C1AD701070051122C /* calabashSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30E10B1AD701070051122C /* calabashSetupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA30E1061AD701070051122C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA30E0E81AD701070051122C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA30E0EF1AD701070051122C;
+			remoteInfo = calabashSetup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA30E0F01AD701070051122C /* calabashSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calabashSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA30E0F41AD701070051122C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA30E0F51AD701070051122C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA30E0F71AD701070051122C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA30E0FA1AD701070051122C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA30E0FC1AD701070051122C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA30E0FF1AD701070051122C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA30E1051AD701070051122C /* calabashSetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calabashSetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA30E10A1AD701070051122C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA30E10B1AD701070051122C /* calabashSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calabashSetupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA30E0ED1AD701070051122C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA30E1021AD701070051122C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA30E0E71AD701070051122C = {
+			isa = PBXGroup;
+			children = (
+				BA30E0F21AD701070051122C /* calabashSetup */,
+				BA30E1081AD701070051122C /* calabashSetupTests */,
+				BA30E0F11AD701070051122C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA30E0F11AD701070051122C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA30E0F01AD701070051122C /* calabashSetup.app */,
+				BA30E1051AD701070051122C /* calabashSetupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA30E0F21AD701070051122C /* calabashSetup */ = {
+			isa = PBXGroup;
+			children = (
+				BA30E0F51AD701070051122C /* AppDelegate.swift */,
+				BA30E0F71AD701070051122C /* ViewController.swift */,
+				BA30E0F91AD701070051122C /* Main.storyboard */,
+				BA30E0FC1AD701070051122C /* Images.xcassets */,
+				BA30E0FE1AD701070051122C /* LaunchScreen.xib */,
+				BA30E0F31AD701070051122C /* Supporting Files */,
+			);
+			path = calabashSetup;
+			sourceTree = "<group>";
+		};
+		BA30E0F31AD701070051122C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA30E0F41AD701070051122C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA30E1081AD701070051122C /* calabashSetupTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA30E10B1AD701070051122C /* calabashSetupTests.swift */,
+				BA30E1091AD701070051122C /* Supporting Files */,
+			);
+			path = calabashSetupTests;
+			sourceTree = "<group>";
+		};
+		BA30E1091AD701070051122C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA30E10A1AD701070051122C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA30E0EF1AD701070051122C /* calabashSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA30E10F1AD701070051122C /* Build configuration list for PBXNativeTarget "calabashSetup" */;
+			buildPhases = (
+				BA30E0EC1AD701070051122C /* Sources */,
+				BA30E0ED1AD701070051122C /* Frameworks */,
+				BA30E0EE1AD701070051122C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calabashSetup;
+			productName = calabashSetup;
+			productReference = BA30E0F01AD701070051122C /* calabashSetup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA30E1041AD701070051122C /* calabashSetupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA30E1121AD701070051122C /* Build configuration list for PBXNativeTarget "calabashSetupTests" */;
+			buildPhases = (
+				BA30E1011AD701070051122C /* Sources */,
+				BA30E1021AD701070051122C /* Frameworks */,
+				BA30E1031AD701070051122C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA30E1071AD701070051122C /* PBXTargetDependency */,
+			);
+			name = calabashSetupTests;
+			productName = calabashSetupTests;
+			productReference = BA30E1051AD701070051122C /* calabashSetupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA30E0E81AD701070051122C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = csetup;
+				TargetAttributes = {
+					BA30E0EF1AD701070051122C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BA30E1041AD701070051122C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BA30E0EF1AD701070051122C;
+					};
+				};
+			};
+			buildConfigurationList = BA30E0EB1AD701070051122C /* Build configuration list for PBXProject "calabashSetup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA30E0E71AD701070051122C;
+			productRefGroup = BA30E0F11AD701070051122C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA30E0EF1AD701070051122C /* calabashSetup */,
+				BA30E1041AD701070051122C /* calabashSetupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA30E0EE1AD701070051122C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA30E0FB1AD701070051122C /* Main.storyboard in Resources */,
+				BA30E1001AD701070051122C /* LaunchScreen.xib in Resources */,
+				BA30E0FD1AD701070051122C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA30E1031AD701070051122C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA30E0EC1AD701070051122C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA30E0F81AD701070051122C /* ViewController.swift in Sources */,
+				BA30E0F61AD701070051122C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA30E1011AD701070051122C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA30E10C1AD701070051122C /* calabashSetupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA30E1071AD701070051122C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA30E0EF1AD701070051122C /* calabashSetup */;
+			targetProxy = BA30E1061AD701070051122C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA30E0F91AD701070051122C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA30E0FA1AD701070051122C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA30E0FE1AD701070051122C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA30E0FF1AD701070051122C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA30E10D1AD701070051122C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA30E10E1AD701070051122C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA30E1101AD701070051122C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calabashSetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA30E1111AD701070051122C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calabashSetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA30E1131AD701070051122C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = calabashSetupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calabashSetup.app/calabashSetup";
+			};
+			name = Debug;
+		};
+		BA30E1141AD701070051122C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = calabashSetupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calabashSetup.app/calabashSetup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA30E0EB1AD701070051122C /* Build configuration list for PBXProject "calabashSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA30E10D1AD701070051122C /* Debug */,
+				BA30E10E1AD701070051122C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA30E10F1AD701070051122C /* Build configuration list for PBXNativeTarget "calabashSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA30E1101AD701070051122C /* Debug */,
+				BA30E1111AD701070051122C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA30E1121AD701070051122C /* Build configuration list for PBXNativeTarget "calabashSetupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA30E1131AD701070051122C /* Debug */,
+				BA30E1141AD701070051122C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA30E0E81AD701070051122C /* Project object */;
+}
