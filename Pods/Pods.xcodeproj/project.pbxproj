@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08985C8976577ED6381A8035 /* LPHTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A97C123400D4B505DE5BE0A3 /* LPHTTPAsyncFileResponse.h */; };
+		3803FC83AF19BD0A02FFD45A /* LPRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE4A708AE8672D5358460C8 /* LPRoute.h */; };
+		4EB3F39D92340F729BAF5685 /* CalabashServer.h in Headers */ = {isa = PBXBuildFile; fileRef = C307ED518912BD9D81ED5318 /* CalabashServer.h */; };
+		5780C493B150BC1048FA4A8D /* LPHTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E505F0EB71F349E34936551 /* LPHTTPDynamicFileResponse.h */; };
+		6173F4202D3907CE5E20BD4D /* LPHTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CAE28A5AA32B4C9D898E9F /* LPHTTPDataResponse.h */; };
+		6D09725C78D9DF090C89DC89 /* LPHTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFDEC5A12AAB76C3E28F252 /* LPHTTPFileResponse.h */; };
+		74E3F3DFA1329F8863E25AD9 /* LPRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB49A2DB93622B247A37F454 /* LPRouter.h */; };
+		85888FAE8E648F0C38170470 /* LPWebQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8063B0F90283912DE87FF67F /* LPWebQuery.h */; };
+		B80E2B619E12E4402E548AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D24E577C5809EDC1F5DCEA5 /* Foundation.framework */; };
+		B840C81FE1153151F338664E /* Pods-calabashSetup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2945A388E86AA7B7DD617C6 /* Pods-calabashSetup-dummy.m */; };
+		B9A87D3AAFF04A6CE3A19BBC /* LPHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CBB531A798E3C25BB9E05C /* LPHTTPResponse.h */; };
+		C67FBB354CB6F4A716D1E8C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5451947D78E9CDFF35411 /* CFNetwork.framework */; };
+		D579BFD6543730B26FFBB965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D24E577C5809EDC1F5DCEA5 /* Foundation.framework */; };
+		DBC3C29B4EB720AFCCBA5D52 /* LPVersionRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C798E2C707A6DA1FBFA1BD /* LPVersionRoute.h */; };
+		FC81CAC3127318EE51052E7C /* Pods-calabashSetup-Calabash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C03477DA1661AED65EF2FE /* Pods-calabashSetup-Calabash-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94856349A879E28E1340DDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933F1A9331C066069AD67D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF1FF6470E435AAA432F609;
+			remoteInfo = "Pods-calabashSetup-Calabash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B1F84F34393DE5C48EEA22 /* Pods-calabashSetup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calabashSetup-acknowledgements.plist"; sourceTree = "<group>"; };
+		034C8A379D8BBCB2E806923F /* Pods-calabashSetup-Calabash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calabashSetup-Calabash-prefix.pch"; sourceTree = "<group>"; };
+		0D24E577C5809EDC1F5DCEA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0FE4A708AE8672D5358460C8 /* LPRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRoute.h; path = calabash.framework/Versions/A/Headers/LPRoute.h; sourceTree = "<group>"; };
+		14CBB531A798E3C25BB9E05C /* LPHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPResponse.h; sourceTree = "<group>"; };
+		1DF28C989D6877A83C1170AB /* libPods-calabashSetup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-calabashSetup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ED8E67DD0A4D429A86AD38 /* Pods-calabashSetup-Calabash-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashSetup-Calabash-Private.xcconfig"; sourceTree = "<group>"; };
+		38CAE28A5AA32B4C9D898E9F /* LPHTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDataResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDataResponse.h; sourceTree = "<group>"; };
+		3AE45418D49EA7EE14D968F4 /* Pods-calabashSetup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calabashSetup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46D4C5466E59AA35206166B8 /* Pods-calabashSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		540B30CD3405B864D6E259FA /* Pods-calabashSetup.calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashSetup.calabash.xcconfig"; sourceTree = "<group>"; };
+		59C03477DA1661AED65EF2FE /* Pods-calabashSetup-Calabash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calabashSetup-Calabash-dummy.m"; sourceTree = "<group>"; };
+		5BC0FB8E06ACF78E4F0DEB2F /* Pods-calabashSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashSetup.release.xcconfig"; sourceTree = "<group>"; };
+		8063B0F90283912DE87FF67F /* LPWebQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebQuery.h; path = calabash.framework/Versions/A/Headers/LPWebQuery.h; sourceTree = "<group>"; };
+		91954F7E2BDD3407EB86E3D8 /* Pods-calabashSetup-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calabashSetup-resources.sh"; sourceTree = "<group>"; };
+		9E505F0EB71F349E34936551 /* LPHTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDynamicFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		A97C123400D4B505DE5BE0A3 /* LPHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPAsyncFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		AE25A40D2978421E477A9B03 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0E5EAF88FA538C10D3ADF96 /* Pods-calabashSetup-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calabashSetup-environment.h"; sourceTree = "<group>"; };
+		C307ED518912BD9D81ED5318 /* CalabashServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalabashServer.h; path = calabash.framework/Versions/A/Headers/CalabashServer.h; sourceTree = "<group>"; };
+		CB49A2DB93622B247A37F454 /* LPRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRouter.h; path = calabash.framework/Versions/A/Headers/LPRouter.h; sourceTree = "<group>"; };
+		D4DB93096E35653C0DE637DE /* Pods-calabashSetup-Calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calabashSetup-Calabash.xcconfig"; sourceTree = "<group>"; };
+		DAFDEC5A12AAB76C3E28F252 /* LPHTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPFileResponse.h; sourceTree = "<group>"; };
+		F2945A388E86AA7B7DD617C6 /* Pods-calabashSetup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calabashSetup-dummy.m"; sourceTree = "<group>"; };
+		F6C798E2C707A6DA1FBFA1BD /* LPVersionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVersionRoute.h; path = calabash.framework/Versions/A/Headers/LPVersionRoute.h; sourceTree = "<group>"; };
+		F9D7779539B43A006F4658CD /* libPods-calabashSetup-Calabash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-calabashSetup-Calabash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5451947D78E9CDFF35411 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6833BEAD41CCC6FC0DF84B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FBB354CB6F4A716D1E8C8 /* CFNetwork.framework in Frameworks */,
+				B80E2B619E12E4402E548AC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7A8274E97AC4D3E81FCA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D579BFD6543730B26FFBB965 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E148715F530921CDA3D2BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8677151CEE5E6033C295B249 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20E4CDA01309D33C4C52D496 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1780F6F2199292671A1D76 /* Pods-calabashSetup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		380F2C4062CB6F285B310468 /* Calabash */ = {
+			isa = PBXGroup;
+			children = (
+				C307ED518912BD9D81ED5318 /* CalabashServer.h */,
+				A97C123400D4B505DE5BE0A3 /* LPHTTPAsyncFileResponse.h */,
+				38CAE28A5AA32B4C9D898E9F /* LPHTTPDataResponse.h */,
+				9E505F0EB71F349E34936551 /* LPHTTPDynamicFileResponse.h */,
+				DAFDEC5A12AAB76C3E28F252 /* LPHTTPFileResponse.h */,
+				14CBB531A798E3C25BB9E05C /* LPHTTPResponse.h */,
+				0FE4A708AE8672D5358460C8 /* LPRoute.h */,
+				CB49A2DB93622B247A37F454 /* LPRouter.h */,
+				F6C798E2C707A6DA1FBFA1BD /* LPVersionRoute.h */,
+				8063B0F90283912DE87FF67F /* LPWebQuery.h */,
+				C0D63FA60CF1214AA2577943 /* Support Files */,
+			);
+			path = Calabash;
+			sourceTree = "<group>";
+		};
+		3E1BC051D140C8928A9BA879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				380F2C4062CB6F285B310468 /* Calabash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66EF1273D60FEAE80C7E1F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF28C989D6877A83C1170AB /* libPods-calabashSetup.a */,
+				F9D7779539B43A006F4658CD /* libPods-calabashSetup-Calabash.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8677151CEE5E6033C295B249 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5451947D78E9CDFF35411 /* CFNetwork.framework */,
+				0D24E577C5809EDC1F5DCEA5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC1780F6F2199292671A1D76 /* Pods-calabashSetup */ = {
+			isa = PBXGroup;
+			children = (
+				3AE45418D49EA7EE14D968F4 /* Pods-calabashSetup-acknowledgements.markdown */,
+				00B1F84F34393DE5C48EEA22 /* Pods-calabashSetup-acknowledgements.plist */,
+				F2945A388E86AA7B7DD617C6 /* Pods-calabashSetup-dummy.m */,
+				C0E5EAF88FA538C10D3ADF96 /* Pods-calabashSetup-environment.h */,
+				91954F7E2BDD3407EB86E3D8 /* Pods-calabashSetup-resources.sh */,
+				540B30CD3405B864D6E259FA /* Pods-calabashSetup.calabash.xcconfig */,
+				46D4C5466E59AA35206166B8 /* Pods-calabashSetup.debug.xcconfig */,
+				5BC0FB8E06ACF78E4F0DEB2F /* Pods-calabashSetup.release.xcconfig */,
+			);
+			name = "Pods-calabashSetup";
+			path = "Target Support Files/Pods-calabashSetup";
+			sourceTree = "<group>";
+		};
+		C0D63FA60CF1214AA2577943 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB93096E35653C0DE637DE /* Pods-calabashSetup-Calabash.xcconfig */,
+				23ED8E67DD0A4D429A86AD38 /* Pods-calabashSetup-Calabash-Private.xcconfig */,
+				59C03477DA1661AED65EF2FE /* Pods-calabashSetup-Calabash-dummy.m */,
+				034C8A379D8BBCB2E806923F /* Pods-calabashSetup-Calabash-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-calabashSetup-Calabash";
+			sourceTree = "<group>";
+		};
+		E33F72C2F974776072CAB52E = {
+			isa = PBXGroup;
+			children = (
+				AE25A40D2978421E477A9B03 /* Podfile */,
+				1E148715F530921CDA3D2BD2 /* Frameworks */,
+				3E1BC051D140C8928A9BA879 /* Pods */,
+				66EF1273D60FEAE80C7E1F65 /* Products */,
+				20E4CDA01309D33C4C52D496 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		882C6EC7C5C76FD2C6457DA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3F39D92340F729BAF5685 /* CalabashServer.h in Headers */,
+				08985C8976577ED6381A8035 /* LPHTTPAsyncFileResponse.h in Headers */,
+				6173F4202D3907CE5E20BD4D /* LPHTTPDataResponse.h in Headers */,
+				5780C493B150BC1048FA4A8D /* LPHTTPDynamicFileResponse.h in Headers */,
+				6D09725C78D9DF090C89DC89 /* LPHTTPFileResponse.h in Headers */,
+				B9A87D3AAFF04A6CE3A19BBC /* LPHTTPResponse.h in Headers */,
+				3803FC83AF19BD0A02FFD45A /* LPRoute.h in Headers */,
+				74E3F3DFA1329F8863E25AD9 /* LPRouter.h in Headers */,
+				DBC3C29B4EB720AFCCBA5D52 /* LPVersionRoute.h in Headers */,
+				85888FAE8E648F0C38170470 /* LPWebQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AF1FF6470E435AAA432F609 /* Pods-calabashSetup-Calabash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319E58D36B7DAE1B64028FA6 /* Build configuration list for PBXNativeTarget "Pods-calabashSetup-Calabash" */;
+			buildPhases = (
+				ADD618BA752F11DC288810C5 /* Sources */,
+				6833BEAD41CCC6FC0DF84B70 /* Frameworks */,
+				882C6EC7C5C76FD2C6457DA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-calabashSetup-Calabash";
+			productName = "Pods-calabashSetup-Calabash";
+			productReference = F9D7779539B43A006F4658CD /* libPods-calabashSetup-Calabash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9C1D712B72667561D4A3A00 /* Pods-calabashSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073321D4EF08320A08F39C1C /* Build configuration list for PBXNativeTarget "Pods-calabashSetup" */;
+			buildPhases = (
+				119B4297E7547B811FE20AD6 /* Sources */,
+				CB7A8274E97AC4D3E81FCA6E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B4B60E6FAECF9827CE1F41 /* PBXTargetDependency */,
+			);
+			name = "Pods-calabashSetup";
+			productName = "Pods-calabashSetup";
+			productReference = 1DF28C989D6877A83C1170AB /* libPods-calabashSetup.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933F1A9331C066069AD67D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3B95DC187B46E84B5A2B7715 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E33F72C2F974776072CAB52E;
+			productRefGroup = 66EF1273D60FEAE80C7E1F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C1D712B72667561D4A3A00 /* Pods-calabashSetup */,
+				0AF1FF6470E435AAA432F609 /* Pods-calabashSetup-Calabash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		119B4297E7547B811FE20AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840C81FE1153151F338664E /* Pods-calabashSetup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD618BA752F11DC288810C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC81CAC3127318EE51052E7C /* Pods-calabashSetup-Calabash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B4B60E6FAECF9827CE1F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-calabashSetup-Calabash";
+			target = 0AF1FF6470E435AAA432F609 /* Pods-calabashSetup-Calabash */;
+			targetProxy = 94856349A879E28E1340DDF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F863DF5597EE7B2BCD3AB86 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540B30CD3405B864D6E259FA /* Pods-calabashSetup.calabash.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Calabash;
+		};
+		2A0B7DF2E38E614D6834DA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D4C5466E59AA35206166B8 /* Pods-calabashSetup.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3895DC67848C04ACEFEB5F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC0FB8E06ACF78E4F0DEB2F /* Pods-calabashSetup.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		862C206751C70304FD406AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ED8E67DD0A4D429A86AD38 /* Pods-calabashSetup-Calabash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-calabashSetup-Calabash/Pods-calabashSetup-Calabash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		977FE0AECFEE5EF7EBD026C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FBFD5039C604D4CA6FE5910 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "CALABASH=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Calabash;
+		};
+		BE9436EFF7AA7F622F29E3BE /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ED8E67DD0A4D429A86AD38 /* Pods-calabashSetup-Calabash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-calabashSetup-Calabash/Pods-calabashSetup-Calabash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Calabash;
+		};
+		E9111FAB885F22D87AB3C01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7CC96F3D4475E292E5C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ED8E67DD0A4D429A86AD38 /* Pods-calabashSetup-Calabash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-calabashSetup-Calabash/Pods-calabashSetup-Calabash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073321D4EF08320A08F39C1C /* Build configuration list for PBXNativeTarget "Pods-calabashSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F863DF5597EE7B2BCD3AB86 /* Calabash */,
+				2A0B7DF2E38E614D6834DA9C /* Debug */,
+				3895DC67848C04ACEFEB5F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319E58D36B7DAE1B64028FA6 /* Build configuration list for PBXNativeTarget "Pods-calabashSetup-Calabash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9436EFF7AA7F622F29E3BE /* Calabash */,
+				FD7CC96F3D4475E292E5C88A /* Debug */,
+				862C206751C70304FD406AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B95DC187B46E84B5A2B7715 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBFD5039C604D4CA6FE5910 /* Calabash */,
+				977FE0AECFEE5EF7EBD026C7 /* Debug */,
+				E9111FAB885F22D87AB3C01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933F1A9331C066069AD67D40 /* Project object */;
+}

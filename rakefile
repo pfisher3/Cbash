@@ -1,0 +1,38 @@
+@build_dir = /Users/pfisher/Library/Developer/Xcode/DerivedData/calabashSetup-ffavphuozbqdotdxtrflacehkatd/Build/Products
+@workspace = calabashSetup.xcworkspace
+@scheme = calabashSetup
+@configuration = 'Release' 
+@app_name = calabashSetup
+
+desc 'Build calabashSetup'
+task :build do 
+	build_fat_binary = <<COMMAND
+	xcrun xcodebuild \
+	-SYMROOT=#{@build_dir} \
+	-derivedDeatePath "#{@build_dir"
+	ARCHS= "i386 x86_64" \
+	VALID_ARCHS= "i386 x86_64 \
+	ONLY_ACTIVE_ARCH=NO \
+	-workspace #{@workspace} \
+	-scheme #{@scheme} \
+	-sdk iphonesumulator \ 
+	clean build
+COMMAND	
+	
+	sh build_fat_binary
+end
+
+desc 'Run all acceptance Tests in simulator.'
+task :simulator_tests=> [:build] do 
+	app_path = "#{@build_dir}/Build/Products/#{configuration}-iphonesumulator/#{@app_name}.app"
+	
+	run_tests = <<COMMAND
+bundle exec cucumber \
+RESET_BETWEEN_SCENARIOS=1 \
+# Xcode >6.0 - using a simulator name
+DEVICE_TARGET='iphone 5s (8.0 Simulator)' \
+APP_BUNDLE_PATH="#{app_path}" \
+COMMAND
+
+	sh run_tests
+end

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>calabashSetup 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>calabashSetup-cal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>calabashSetup.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>789c5af4cd8de8c9d9d9399f</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BA30E0EF1AD701070051122C</key>
 		<dict>
 			<key>primary</key>
